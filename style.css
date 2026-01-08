@@ -71,7 +71,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 100px;
+  margin-bottom: 58px;
 }
 .banner-text {
   color: #ffffff;
@@ -153,3 +153,77 @@ nav {
   transition: 1s;
   border: none;
 }
+/* Start Main content */
+ main {
+  max-width: 1360 px;
+  margin:0 auto;
+  padding: 0 20px;
+  
+}
+
+ main section{
+  margin-bottom:40px;
+}  
+
+/* For notes */
+.note-title-text {
+  text-align: center;
+}
+.note-title-text h1 {
+  text-transform: capitalize;
+  font-style: Bold;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom:20px;
+}
+
+/* for note card */
+.notes-card{
+  margin-top:30px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+
+}
+.card{
+  max-width:322px;
+  height:310;
+  padding:65px 38px;
+  text-align:center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 -5px 20px  rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+.card-icon img{
+  width:100px;
+  height:100px;
+  margin:0 auto 20px;
+  background-color: rgba(249, 85, 85, 1);
+  border-radius:50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px;
+}
+
+.card-icon img{
+  width:50px;
+  height:50px;
+   
+}
+.card-title{
+  font-size:25px;
+  font-weight:600;
+  margin-bottom:10px;
+  min-height:52px;
+
+}
+.card-text{
+  font-size:15px;
+  line-height:1.6;
+  min-height:60px;
+
+}
+  
