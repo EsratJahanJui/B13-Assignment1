@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+/* Navbar */
 nav {
   display: flex;
   justify-content: space-between;
@@ -26,7 +27,7 @@ nav {
 .menu-items ul {
   display: flex;
   justify-content: space-between;
-  gap: 15px;
+  gap: 20px;
 }
 .menu-items ul li {
   list-style: none;
@@ -55,4 +56,100 @@ nav {
   background-color: white;
   color: #30b868;
   transition: 1s;
+  border: 2px solid #30b868;
+}
+
+/* Start Bannner  */
+.banner {
+  background-image: url(./assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.banner-text {
+  color: #ffffff;
+}
+
+.title-text h1 {
+  font-size: 72px;
+  text-transform: capitalize;
+}
+
+.color-text {
+  color: #30b868;
+  padding-bottom: 25px;
+}
+
+.banner-btnA {
+  margin-bottom: 23px;
+  font-size: 19px;
+  color: #30b868;
+  background-color: #ffffff;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 25px;
+  font-weight: 600;
+}
+.banner-btnA:hover {
+  background-color: #30b868;
+  transition: 1s;
+  color: white;
+  border: none;
+}
+.banner .para-text p {
+  font-size: 18px;
+  line-height: 2;
+  padding-bottom: 40px;
+}
+.banner-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  gap: 15px;
+}
+.banner-btnB {
+  background-color: #30b868;
+  color: white;
+
+  padding: 14px 16px 14px 16px;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: none;
+  flex-direction: row;
+}
+.banner-btnB img {
+  width: 17px;
+}
+.banner-btnC {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 14px 14px 14px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.banner-btnB:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  transition: 1s;
+  color: #30b868;
+}
+.banner-btnC:hover {
+  background-color: #30b868;
+  transition: 1s;
+  border: none;
 }
