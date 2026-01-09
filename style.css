@@ -7,6 +7,7 @@ body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+/* work for 1600px screen size */
 /* Navbar */
 nav {
   display: flex;
@@ -253,7 +254,7 @@ main section {
 }
 
 .text-section p {
-  color: grey;
+  color: #627382;
   padding-bottom: 27px;
   line-height: 1.7;
 }
@@ -266,3 +267,57 @@ main section {
   gap: 10px;
   margin-bottom: 10px;
 }
+/* early access section */
+.early-access-section{
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+ 
+
+.content{
+  width: 1360px;
+height: 384px;
+background-color: #F7F6F2;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+padding: 80px 40px;
+border-radius: 10px;
+
+}
+
+
+.content h1{
+  font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-transform: capitalize;
+}
+.content p{
+  color: #627382;
+  text-align: center;
+  padding: 20px 0px;
+
+}
+.content button{
+  color:#F7F6F2;
+  background-color: #469165;
+  border:none;
+padding:10px 14px;
+font-size:17px;
+border-radius: 7px;
+font-weight: 500;
+display: flex;
+align-items: center;
+gap: 8px;
+
+}
+.content button:hover{
+   background-color: transparent;
+  color: #30b868;
+  transition: 1s;
+  border: 2px solid #30b868;
+}
+ 
